@@ -165,7 +165,6 @@ $games= [
     </style>
 </head>
 <body>
-  <!-- Navbar Section -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-black">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Details</a>
@@ -182,7 +181,6 @@ $games= [
     </div>
   </nav>
 
-  <!-- Sidebar -->
   <div class="d-flex">
     <button class="btn btn-dark" id="menuToggle"><i class="bi bi-list"></i></button>
   </div>
@@ -207,7 +205,6 @@ $games= [
     };
   </script>
 
-  <!-- Hero Section -->
   <section>
     <div class="hero w-100 h-90 video-background">
       <iframe id="youtube-video" 
@@ -224,7 +221,6 @@ $games= [
     </div>
   </section>
 
-  <!-- Games Section -->
   <section class="games">
     <div class="text">
       <h1>Games</h1>
@@ -262,7 +258,6 @@ $games= [
     </div>
   </section>
 
-  <!-- Shop Section -->
   <section class="shop">
     <div class="products d-flex flex-row align-items-start overflow-x-scroll gap-3 p-3">
       <?php foreach ($products as $item) { ?>
