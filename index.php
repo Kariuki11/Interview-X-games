@@ -1,41 +1,146 @@
 <?php 
 $games= [
-  [
-    "title" => "Game 1",
-    "price" => "100",
-    "genre" => "Action",
-    "availability" => "Available",
-    "platform" => "PC",
-    "size" => "10GB",
-    "release_date" => "2022",
-    "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
-    "image" => "https://i.pinimg.com/564x/3f/4c/84/3f4c84129f0c01e819e73fc392480bce.jpg"
-  ],
-  [
-    "title" => "Game 2",
-    "price" => "200",
-    "genre" => "Adventure",
-    "availability" => "Available",
-    "platform" => "PC",
-    "size" => "20GB",
-    "release_date" => "2022",
-    "min_requirements" => "Intel Core i7, 16GB RAM, 4GB VRAM, 40GB Storage",
-    "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
-  ],
-  // more games...
-];
-
-$products= [
-  [
-    "name" => "Product 1",
-    "category" => "Gaming Pad",
-    "stock" => "In Stock",
-    "delivery" => "Local Delivery Available",
-    "price" => "69.99",
-    "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
-  ],
-  // more products...
-];
+    [
+        "title" => "Game 1",
+        "price" => "100",
+        "genre" => "Action",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "10GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+        "image" => "https://i.pinimg.com/564x/3f/4c/84/3f4c84129f0c01e819e73fc392480bce.jpg"
+      ],
+      [
+        "title" => "Game 2",
+        "price" => "200",
+        "genre" => "Adventure",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "20GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i7, 16GB RAM, 4GB VRAM, 40GB Storage",
+        "image" => "https://i.pinimg.com/564x/97/a4/88/97a488fdb368f0b37e719c2a191305c0.jpg"
+      ],
+      [
+        "title" => "Game 3",
+        "price" => "300",
+        "genre" => "RPG",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "30GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i9, 32GB RAM, 8GB VRAM, 60GB Storage",
+        "image" => "https://i.pinimg.com/736x/af/bf/cf/afbfcfcaf49486a63eafbd6e845beccf.jpg"
+      ],
+      [
+        "title" => "Game 4",
+        "price" => "400",
+        "genre" => "Shooter",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "40GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i3, 4GB RAM, 1GB VRAM, 10GB Storage",
+        "image" => "https://i.pinimg.com/736x/ab/0f/26/ab0f260c508429e347c66acc18d4f24a.jpg"
+      ],
+      [
+        "title" => "Game 5",
+        "price" => "500",
+        "genre" => "Strategy",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "50GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+        "image" => "https://i.pinimg.com/564x/0f/55/c2/0f55c28bbaf2deb75ea2d33707e75129.jpg"
+      ],
+      [
+        "title" => "Game 6",
+        "price" => "600",
+        "genre" => "Simulation",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "60GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+        "image" => "https://i.pinimg.com/736x/e5/da/ae/e5daae2ee37b767d982982cc766ae76f.jpg"
+    
+      ],
+      [
+        "title" => "Game 7",
+        "price" => "700",
+        "genre" => "Sports",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "70GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+        "image" => "https://i.pinimg.com/564x/fe/c6/83/fec683f6067f82ed11d75b33e73ea5de.jpg"
+      ],
+      [
+        "title" => "Game 8",
+        "price" => "800",
+        "genre" => "Horror",
+        "availability" => "Available",
+        "platform" => "PC",
+        "size" => "80GB",
+        "release_date" => "2022",
+        "min_requirements" => "Intel Core i5, 8GB RAM, 2GB VRAM, 20GB Storage",
+        "image" => "https://i.pinimg.com/564x/2a/77/5d/2a775da242bfe46dd245823826fee4dd.jpg"
+      ]
+      // Add more games as needed
+    ];
+    $products= [
+      [
+        "name" => "Product 1",
+        "category" => "Gaming Pad",
+        "stock" => "In Stock",
+        "delivery" => "Local Delivery Available",
+        "price" => "69.99",
+        "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+      ],
+      [
+        "name" => "Product 2",
+        "category" => "Gaming Pad",
+        "stock" => "In Stock",
+        "delivery" => "Local Delivery Available",
+        "price" => "69.99",
+        "image" => "https://i.pinimg.com/564x/cf/d6/7c/cfd67cf1c0bb1c311b185c144dd211b6.jpg"
+      ],
+      [
+        "name" => "Product 3",
+        "category" => "Gaming Pad",
+        "stock" => "In Stock",
+        "delivery" => "Local Delivery Available",
+        "price" => "69.99",
+        "image" => "https://i.pinimg.com/564x/be/76/7e/be767e78f76491d297104777627b2f17.jpg"
+      ],
+      [
+        "name" => "Product 4",
+        "category" => "PS 5",
+        "stock" => "In Stock",
+        "delivery" => "Local Delivery Available",
+        "price" => "69.99",
+        "image" => "https://i.pinimg.com/736x/3f/4c/84/3f4c84129f0c01e819e73fc392480bce.jpg"
+      ],
+      [
+        "name" => "Product 5",
+        "category" => "Cusomized Gaming Pad",
+        "stock" => "In Stock",
+        "delivery" => "Local Delivery Available",
+        "price" => "69.99",
+        "image" => "https://i.pinimg.com/564x/fe/c6/83/fec683f6067f82ed11d75b33e73ea5de.jpg"
+      ],
+      [
+        "name" => "Product 6",
+        "category" => "Gaming Pad",
+        "stock" => "In Stock",
+        "delivery" => "Local Delivery Available",
+        "price" => "69.99",
+        "image" => "https://i.pinimg.com/564x/2a/77/5d/2a775da242bfe46dd245823826fee4dd.jpg"
+      ]
+    ];
 ?>
 
 <!DOCTYPE html>
